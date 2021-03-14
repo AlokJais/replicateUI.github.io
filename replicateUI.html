@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReplicateUI</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <style>
+    * {
+
+      margin: 0;
+      padding: 0;
+    }
+
+    .btn {
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+      height: 99vh;
+      width: 100px;
+
+    }
+
+    .btn li {
+      text-align: center;
+      padding-top: 20px;
+      position: relative;
+    }
+
+    ul {
+      list-style: none;
+
+    }
+
+    li a {
+      text-decoration: none;
+      text-align: center;
+      color: black;
+    }
+
+    li:hover {
+      background-color: rgba(100, 175, 237, 0.116);
+      border-left: 2px solid blue;
+      text-align: center;
+    }
+
+    .myclass {
+      height: 87vh;
+      width: 800px;
+      box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+      position: absolute;
+      top: 0px;
+      right: -800px;
+      margin-top: -40px;
+      background-color: rgba(0, 0, 0, 0.06);
+      display: none;
+    }
+
+    .myclass span {
+
+      margin-left: -330px;
+      position: relative;
+      margin-top: 20px;
+    }
+
+    #npt {
+      position: absolute 
+      top:20px;
+      right: 330px;
+
+
+    }
+
+    input {
+      border: 1px solid white;
+      background-color: white;
+      border-radius: 5px;
+      width: 500px;
+      height: 30px;
+      color: black;
+      margin-left: 60px;
+    }
+
+    .myclass h3 {
+
+      height: 100px;
+      width: 200px;
+      background-color: white;
+      margin-left: 130px;
+      padding-top: 100px;
+      ;
+    }
+
+    #myid:hover .myclass {
+      display: block;
+
+    }
+
+    #icon {
+
+      font-size: 35px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="btn">
+    <ul>
+      <li id="icon"><span><i class="fab fa-500px"></i></span></li>
+
+      <li><span><i class="fal fa-user"></i><span>
+            <br />
+            <a id=youid href="#">Student</a></li>
+      <li id="myid"><span><i class="fas fa-book"></i></span>
+        <br />
+        <a href="#">Lesson Plan</a>
+        <div class="myclass">
+          <span id="npt"><i class="fas fa-arrow-left"></i></span>
+          <span>Video</span>
+          <br />
+          <br>
+          <input type="text" placeholder="Insert URL here">
+          <br />
+          <br />
+          <b>or</b>
+          <br />
+          <br />
+          <h3>upload</h3>
+        </div>
+      </li>
+      <li><span><i class="fal fa-cog"></i></span>
+        <br />
+        <a id=youid href="#">Setting</a>
+      </li>
+    </ul>
+  </div>
+
+</body>
+
+</html>
